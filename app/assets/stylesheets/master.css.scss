@@ -80,3 +80,22 @@ h2 {
 .about {
     font-family: 'Merriweather', serif;
 }
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'Open Sans', sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
+}
