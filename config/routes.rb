@@ -54,8 +54,7 @@ Splurty::Application.routes.draw do
   #     resources :products
   #   end
   root 'quotes#index'
-
-  resources :quotes
+  resources :quotes #This creates CRUD paths for the application
   get 'about', to: 'quotes#about'
 
 end
